@@ -43,7 +43,7 @@ class RegisteredUserController extends Controller
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
         
-                        	$secret = '6Lf5kMEdAAAAADnq8QVewAvNOl3CNnTkqOAAPTQI';
+                        	$secret = ' ';
 
    							 $response = $request->input('g-recaptcha-response');
 
